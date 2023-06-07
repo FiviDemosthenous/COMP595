@@ -1,0 +1,140 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_suggestionId",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_suggestion",
+						"type": "string"
+					}
+				],
+				"name": "MeetingSuggestions",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "MostVoted",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ShowSuggestions",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_suggestion",
+						"type": "string"
+					}
+				],
+				"name": "ShowSuggestionsVotes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ShowVoteResults",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_suggestionId",
+						"type": "string"
+					}
+				],
+				"name": "Vote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Project/SmartMinutes/eVoting/workspace/contracts/SmartMinutes-eVoting.sol": "VotingContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Project/SmartMinutes/eVoting/workspace/contracts/SmartMinutes-eVoting.sol": {
+			"keccak256": "0xc6a9acdc899b03cd9f9b2e2d195f26ee3d1d9524aecfe39d899814abe4bf16a6",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://f35d20f49b4f9145a5bd9b5edebe3445a197b318d9bbe77cc0ccd3fde57797dc",
+				"dweb:/ipfs/QmWV3MTomEKmftk8j3EeFwjcKzRwyNak4M5kTJ7f8YrLgG"
+			]
+		}
+	},
+	"version": 1
+}
